@@ -1,0 +1,117 @@
+
+@media screen and (min-width: 480px) {
+    
+    /* ================================== GENERAL =================================== */
+
+    .title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    nav > ul > li {
+        font-size: 16px;
+    }
+
+    /* ================================== HOME =================================== */
+
+    .section-list {
+        padding: 0 15%;
+    }
+
+    .section-blocks {
+        padding: 30px;
+    }
+
+    /* ================================== RESUME =================================== */
+
+    .sectionheading {
+        font-size: 24px;
+        border-bottom: 2px solid;
+    }
+
+    .school, .employer, .location, .degree, .position, .timeframe, .skillblock, .skillsection, .experience-education-skills ul {
+        font-size: 16px;
+    }
+
+    /* ================================== GALLERY =================================== */
+
+    .gallery li {
+        width: 50%;
+    }
+
+    .gallery li img {
+        max-width: 320px;
+        max-height: 230px;
+        margin: auto;
+    }
+
+    .caption {
+        padding: 15px;
+        margin: 0 auto 10px;
+        text-align: center;
+    }
+
+    .vessel section ul li p {
+        font-size: 16px;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width: 660px) {
+
+    /* ================================== GENERAL =================================== */
+
+    .title {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    /* ================================== HOME =================================== */
+
+     .section-list {
+        padding: 0 33%;
+    }
+
+    .section-blocks {
+        padding: 40px;
+    }
+
+    /* ================================== RESUME =================================== */
+
+    .location {
+        display: initial;
+    }
+
+    /* ================================== GALLERY =================================== */
+
+    .gallery {
+        margin-left: 10%;     
+        margin-right: 10%;   
+    }
+
+    .gallery li {
+        max-width: 100%;
+    }
+
+    .gallery li img {
+        margin: auto;
+        display: block;
+    }
+
+    .caption {
+        padding: 15px;
+        margin: 0 auto 10px;
+    }
+
+}
+

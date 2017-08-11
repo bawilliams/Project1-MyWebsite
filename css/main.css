@@ -1,0 +1,283 @@
+
+/* ================================== GENERAL =================================== */
+
+
+/* ====== BACKGROUND ======= */
+
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/SnowyYellowstone.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html, body {
+    margin: 0;
+    padding: 0 0 75px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+/* ====== TEXT ======= */
+
+body {
+    font-family: 'Lora', serif;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 15px 10px 0;
+}
+
+
+/* ====== NAV ======= */
+
+.container {
+    margin: 0 auto;
+}
+
+.container nav ul {
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.2);    
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+nav > ul > li {
+    position: relative;
+    display: inline-block;
+    width: 16.6667%;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+  font-size: 0;
+}
+
+nav li:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* ====== FOOTER ======= */
+
+footer {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: rgba(50,50,50, 0.8);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+}
+
+.email {
+    background-color: white;
+}
+
+
+
+/* ================================== HOME =================================== */
+
+.container header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/YellowstoneMountainsBackground.jpg");
+}
+
+.section-list {
+    padding: 0 10%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-bottom: 100px; 
+}
+
+.section-blocks {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/SnowyBackground.jpg");
+    background-size: 100% 100%;
+    padding: 20px;
+    margin: 5% 0;
+}
+
+.section-blocks a {
+    font-size: 20px;
+}
+
+.section-blocks:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.section-blocks p {
+    padding-top: 5px;
+}
+
+
+/* ================================== CODEPEN =================================== */
+
+h3 {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.difficulty {
+    padding: 10px;
+}
+
+.difficulty a {
+    font-size: 18px;
+}
+
+.difficulty a:hover {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.difficulty p {
+    padding-top: 8px;
+}
+
+.difficulty p, .difficulty li {
+    font-size: 14px;
+}
+
+
+/* ================================== CONTACT =================================== */
+
+.form form ul li {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/* ================================== RESUME =================================== */
+
+.wrapper {
+    margin: 10px 30px;
+}
+
+.sectionheading {
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid;
+    margin: 0 0 10px 0;
+}
+
+.school, .employer, .location, .degree, .position, .timeframe, .skillblock, .skillsection, .experience-education-skills ul {
+    font-size: 14px;
+}
+
+.school, .employer {
+    font-weight: bold;
+    float: left;
+}
+
+.location {
+    display: none;
+}
+
+.degree, .position {
+    font-style: italic;
+    clear: both;
+}
+
+.timeframe {
+    float: right;
+}
+
+.skillblock {
+    float:left;
+    width: 50%;
+}
+
+.skillsection {
+    font-weight: bold;
+}
+
+.experience-education-skills ul {
+    list-style: circle;
+    margin: 10px 20px;
+}
+
+
+/* ================================== BIOGRAPHY =================================== */
+
+.profile-photo {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto 20px;
+    border-radius: 100%;
+    padding-top: 20px;
+}
+
+.biography p {
+    padding: 15px;
+}
+
+
+
+/* ================================== GALLERY =================================== */
+
+
+
+.gallery {
+    list-style: none;
+}
+
+.gallery li {
+    width: 80%;
+    display: block;
+    margin: auto;
+    max-height: 300px;
+}
+
+.gallery li img {
+    max-width: 300px;
+    max-height: 225px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.gallery li a {
+    padding: 5% 5%;
+}
+
+.caption {
+    padding: 15px 15px 0 15px;
+    display: block;
+}
+
+.vessel section ul li p {
+    font-size: 14px;
+}
